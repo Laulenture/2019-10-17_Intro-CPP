@@ -11,21 +11,24 @@ using namespace std;
 int main()
 {
 	printf("Hello world!\n");
+
+	//Variables ou constantes locales
 	int i = 0;
 	float x = 0.0;
 	float racx = 0.0;
-
+	//Constante
 	const int NFOIS = 5;
 
 	printf("Bonjour\n");
 
 
-
+	//cout envoie une informatoin typé dans la console
 	cout << "Je vais vous calculer" << NFOIS << "racines carrees\n";
 
 	for (i = 0; i < NFOIS; i++) {
 
 		cout << "Donnez un nombre : ";
+		//cin permet de saisir une information
 		cin >> x;
 
 

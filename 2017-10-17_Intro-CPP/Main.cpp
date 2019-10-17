@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
+#include "CPoint.h"
 
 ///'cout', 'cin' et 'endl' font partie du namespace 'std', il faut soit inclure le namespace en début de programme ou rajouter 'std::' devant les primitive de 'std'
 //using namespace std;
@@ -12,7 +13,7 @@
 
 int main()
 {
-	printf("Hello world!\n");
+	/*printf("Hello world!\n");
 
 	///Variables ou constantes locales
 	int i = 0;
@@ -43,8 +44,17 @@ int main()
 		}
 	}
 
-	std::cout << "Travail Termine" << std::endl;
+	std::cout << "Travail Termine" << std::endl;*/
 
+	CPoint ptMonPoint;
+
+	ptMonPoint.setX(0);
+	ptMonPoint.setY(-12);
+
+	std::cout << "X: " << ptMonPoint.getX() << std::endl;
+	std::cout << "Y: " << ptMonPoint.getY() << std::endl;
+
+	system("pause");
 
 	return 0;
 }

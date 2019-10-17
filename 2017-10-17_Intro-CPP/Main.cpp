@@ -37,7 +37,7 @@ int main()
 			cout << "Le nombre" << x << "ne possede pas de racine carree\n";
 		else {
 			racx = sqrtf(x);
-			cout << "Le nombre" << x << "a pour racine carree" << racx << endl;
+			cout << "Le nombre " << x << " a pour racine carree " << racx << endl;
 		}
 	}
 

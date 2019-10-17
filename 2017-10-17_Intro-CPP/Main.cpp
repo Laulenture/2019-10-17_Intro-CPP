@@ -33,7 +33,6 @@ int main()
 
 
 		if (x < 0.0)
-
 			cout << "Le nombre" << x << "ne possede pas de racine carree\n";
 		else {
 			racx = sqrtf(x);
